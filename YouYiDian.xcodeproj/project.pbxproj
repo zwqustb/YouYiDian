@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D09F6120214717009367DD /* BackDepositOK.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F5C20214717009367DD /* BackDepositOK.xib */; };
+		79D09F6220214717009367DD /* backDeposits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F5D20214717009367DD /* backDeposits.swift */; };
+		79D09F6320214717009367DD /* backDeposits.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F5E20214717009367DD /* backDeposits.xib */; };
+		79D09F6420214717009367DD /* DepositVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F5F20214717009367DD /* DepositVC.swift */; };
+		79D09F6520214717009367DD /* DepositVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F6020214717009367DD /* DepositVC.xib */; };
+		79D09F7D2021639B009367DD /* chargeOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F7C2021639B009367DD /* chargeOver.xib */; };
+		79D09F7F20218EF2009367DD /* BackDepositOK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F7E20218EF2009367DD /* BackDepositOK.swift */; };
+		79D09F81202196EC009367DD /* chargeOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F80202196EC009367DD /* chargeOver.swift */; };
+		79D09F872021ACA2009367DD /* CarAddInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F852021ACA2009367DD /* CarAddInfoVC.swift */; };
+		79D09F882021ACA2009367DD /* CarAddInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F862021ACA2009367DD /* CarAddInfoVC.xib */; };
+		79D09F922021B6BB009367DD /* CarInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F902021B6BB009367DD /* CarInfoVC.swift */; };
+		79D09F932021B6BB009367DD /* CarInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F912021B6BB009367DD /* CarInfoVC.xib */; };
+		79D09F962021BCAE009367DD /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D09F942021BCAE009367DD /* CarCell.swift */; };
+		79D09F972021BCAE009367DD /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D09F952021BCAE009367DD /* CarCell.xib */; };
+		AD6A4CEB2018E3D100DF0EBE /* BarcodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6A4CEA2018E3D100DF0EBE /* BarcodeVC.xib */; };
+		AD8CB5051FE7B5B7002BFF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5041FE7B5B7002BFF33 /* AppDelegate.swift */; };
+		AD8CB5071FE7B5B7002BFF33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5061FE7B5B7002BFF33 /* ViewController.swift */; };
+		AD8CB50A1FE7B5B7002BFF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8CB5081FE7B5B7002BFF33 /* Main.storyboard */; };
+		AD8CB50C1FE7B5B7002BFF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8CB50B1FE7B5B7002BFF33 /* Assets.xcassets */; };
+		AD8CB50F1FE7B5B7002BFF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8CB50D1FE7B5B7002BFF33 /* LaunchScreen.storyboard */; };
+		AD8CB5191FE7B867002BFF33 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5181FE7B867002BFF33 /* HomePageVC.swift */; };
+		AD8CB51B1FE7BE04002BFF33 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB51A1FE7BE04002BFF33 /* HomeVC.swift */; };
+		AD8CB51E1FE7BEF4002BFF33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CB51D1FE7BEF4002BFF33 /* MapKit.framework */; };
+		AD8CB52D1FE7C86B002BFF33 /* ZwqHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB52C1FE7C86B002BFF33 /* ZwqHttp.swift */; };
+		AD8CB52F1FE7C91B002BFF33 /* GTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB52E1FE7C91B002BFF33 /* GTools.swift */; };
+		AD8CB5471FE7CD16002BFF33 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5421FE7CD16002BFF33 /* MBProgressHUD.m */; };
+		AD8CB5481FE7CD16002BFF33 /* MBProgressHUD+HM.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5451FE7CD16002BFF33 /* MBProgressHUD+HM.m */; };
+		AD8CB5491FE7CD16002BFF33 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD8CB5461FE7CD16002BFF33 /* MBProgressHUD.bundle */; };
+		AD8CB54B1FE7E704002BFF33 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB54A1FE7E704002BFF33 /* MapPoint.swift */; };
+		AD8CB5511FE818A3002BFF33 /* PopDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5501FE818A3002BFF33 /* PopDetail.swift */; };
+		AD8CB5531FE818E4002BFF33 /* PopDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8CB5521FE818E4002BFF33 /* PopDetail.xib */; };
+		AD8CB5581FE8B133002BFF33 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB5561FE8B133002BFF33 /* LoginVC.swift */; };
+		AD8CB5591FE8B133002BFF33 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8CB5571FE8B133002BFF33 /* LoginVC.xib */; };
+		AD8CB55B1FE8D15B002BFF33 /* UITools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8CB55A1FE8D15B002BFF33 /* UITools.swift */; };
+		AD9CFF891FEF965200EF0A14 /* DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9CFF881FEF965200EF0A14 /* DateTools.swift */; };
+		ADB0A9391FECA79100C757A9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9381FECA79100C757A9 /* libsqlite3.tbd */; };
+		ADB0A93B1FECAF8400C757A9 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0A93A1FECAF8400C757A9 /* HistoryVC.swift */; };
+		ADB0A93E1FECB0B100C757A9 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0A93C1FECB0B100C757A9 /* HistoryCell.swift */; };
+		ADB0A93F1FECB0B100C757A9 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB0A93D1FECB0B100C757A9 /* HistoryCell.xib */; };
+		ADB0A94C1FECC88200C757A9 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9481FECC88200C757A9 /* libcrypto.a */; };
+		ADB0A94D1FECC88200C757A9 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9491FECC88200C757A9 /* libssl.a */; };
+		ADB0A94E1FECC88200C757A9 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A94A1FECC88200C757A9 /* BaiduMapAPI_Utils.framework */; };
+		ADB0A94F1FECC88200C757A9 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A94B1FECC88200C757A9 /* BaiduMapAPI_Base.framework */; };
+		ADB0A9511FECCA9800C757A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9501FECCA9700C757A9 /* Security.framework */; };
+		ADB0A9531FECCAA700C757A9 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9521FECCAA700C757A9 /* libstdc++.tbd */; };
+		ADB0A9551FECCACF00C757A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9541FECCACF00C757A9 /* CoreLocation.framework */; };
+		ADB0A9571FECCAD800C757A9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0A9561FECCAD700C757A9 /* OpenGLES.framework */; };
+		ADB0AA401FED4BBD00C757A9 /* httpCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0AA3F1FED4BBD00C757A9 /* httpCmd.swift */; };
+		ADD134071FE8F953002692E3 /* chargeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD134051FE8F953002692E3 /* chargeVC.swift */; };
+		ADD134081FE8F953002692E3 /* chargeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD134061FE8F953002692E3 /* chargeVC.xib */; };
+		ADD134131FE9055C002692E3 /* scanscanBg.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD1340B1FE9055C002692E3 /* scanscanBg.png */; };
+		ADD134141FE9055C002692E3 /* scanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD1340C1FE9055C002692E3 /* scanLine@3x.png */; };
+		ADD134151FE9055C002692E3 /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD1340D1FE9055C002692E3 /* scanLine@2x.png */; };
+		ADD134161FE9055C002692E3 /* ScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD1340F1FE9055C002692E3 /* ScanningViewController.m */; };
+		ADD134191FE90F3C002692E3 /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD134181FE90F3C002692E3 /* BarcodeVC.swift */; };
+		ADD1341E1FE9F495002692E3 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD1341C1FE9F495002692E3 /* ExploreVC.swift */; };
+		ADD1341F1FE9F495002692E3 /* ExploreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD1341D1FE9F495002692E3 /* ExploreVC.xib */; };
+		ADD134211FE9F4BF002692E3 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD134201FE9F4BF002692E3 /* MineVC.swift */; };
+		ADD215E41FEB571F00DE5833 /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD215E31FEB571F00DE5833 /* PayVC.swift */; };
+		ADD215FD1FEB7BA500DE5833 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD215F41FEB7BA500DE5833 /* WXApiManager.m */; };
+		ADD215FE1FEB7BA500DE5833 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADD215F71FEB7BA500DE5833 /* README.txt */; };
+		ADD215FF1FEB7BA500DE5833 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD215F91FEB7BA500DE5833 /* libWeChatSDK.a */; };
+		ADD216001FEB7BA500DE5833 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADD215FB1FEB7BA500DE5833 /* AlipaySDK.bundle */; };
+		ADD216011FEB7BA500DE5833 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD215FC1FEB7BA500DE5833 /* AlipaySDK.framework */; };
+		ADD216031FEB7C8800DE5833 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216021FEB7C8700DE5833 /* libc++.tbd */; };
+		ADD216051FEB7C9000DE5833 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216041FEB7C9000DE5833 /* libz.tbd */; };
+		ADD216071FEB7CA100DE5833 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216061FEB7CA100DE5833 /* SystemConfiguration.framework */; };
+		ADD216091FEB7CAE00DE5833 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216081FEB7CAE00DE5833 /* CoreTelephony.framework */; };
+		ADD2160B1FEB7CB900DE5833 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD2160A1FEB7CB900DE5833 /* QuartzCore.framework */; };
+		ADD2160D1FEB7CC700DE5833 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD2160C1FEB7CC700DE5833 /* CoreText.framework */; };
+		ADD2160F1FEB7CD100DE5833 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD2160E1FEB7CD100DE5833 /* CoreGraphics.framework */; };
+		ADD216111FEB7CDA00DE5833 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216101FEB7CDA00DE5833 /* UIKit.framework */; };
+		ADD216131FEB7CE500DE5833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216121FEB7CE500DE5833 /* Foundation.framework */; };
+		ADD216151FEB7CEE00DE5833 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216141FEB7CEE00DE5833 /* CFNetwork.framework */; };
+		ADD216171FEB7CF800DE5833 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD216161FEB7CF800DE5833 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79D09F5C20214717009367DD /* BackDepositOK.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackDepositOK.xib; sourceTree = "<group>"; };
+		79D09F5D20214717009367DD /* backDeposits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backDeposits.swift; sourceTree = "<group>"; };
+		79D09F5E20214717009367DD /* backDeposits.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = backDeposits.xib; sourceTree = "<group>"; };
+		79D09F5F20214717009367DD /* DepositVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositVC.swift; sourceTree = "<group>"; };
+		79D09F6020214717009367DD /* DepositVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepositVC.xib; sourceTree = "<group>"; };
+		79D09F7C2021639B009367DD /* chargeOver.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chargeOver.xib; sourceTree = "<group>"; };
+		79D09F7E20218EF2009367DD /* BackDepositOK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackDepositOK.swift; sourceTree = "<group>"; };
+		79D09F80202196EC009367DD /* chargeOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargeOver.swift; sourceTree = "<group>"; };
+		79D09F852021ACA2009367DD /* CarAddInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAddInfoVC.swift; sourceTree = "<group>"; };
+		79D09F862021ACA2009367DD /* CarAddInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarAddInfoVC.xib; sourceTree = "<group>"; };
+		79D09F902021B6BB009367DD /* CarInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoVC.swift; sourceTree = "<group>"; };
+		79D09F912021B6BB009367DD /* CarInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarInfoVC.xib; sourceTree = "<group>"; };
+		79D09F942021BCAE009367DD /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		79D09F952021BCAE009367DD /* CarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
+		AD6A4CEA2018E3D100DF0EBE /* BarcodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarcodeVC.xib; sourceTree = "<group>"; };
+		AD8CB5011FE7B5B7002BFF33 /* YouYiDian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouYiDian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8CB5041FE7B5B7002BFF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD8CB5061FE7B5B7002BFF33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD8CB5091FE7B5B7002BFF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD8CB50B1FE7B5B7002BFF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD8CB50E1FE7B5B7002BFF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD8CB5101FE7B5B7002BFF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8CB5181FE7B867002BFF33 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		AD8CB51A1FE7BE04002BFF33 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AD8CB51D1FE7BEF4002BFF33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD8CB52C1FE7C86B002BFF33 /* ZwqHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZwqHttp.swift; sourceTree = "<group>"; };
+		AD8CB52E1FE7C91B002BFF33 /* GTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTools.swift; sourceTree = "<group>"; };
+		AD8CB53D1FE7CCF1002BFF33 /* YouYiDian-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouYiDian-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD8CB5421FE7CD16002BFF33 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AD8CB5431FE7CD16002BFF33 /* MBProgressHUD+HM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HM.h"; sourceTree = "<group>"; };
+		AD8CB5441FE7CD16002BFF33 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		AD8CB5451FE7CD16002BFF33 /* MBProgressHUD+HM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HM.m"; sourceTree = "<group>"; };
+		AD8CB5461FE7CD16002BFF33 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		AD8CB54A1FE7E704002BFF33 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
+		AD8CB5501FE818A3002BFF33 /* PopDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopDetail.swift; sourceTree = "<group>"; };
+		AD8CB5521FE818E4002BFF33 /* PopDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopDetail.xib; sourceTree = "<group>"; };
+		AD8CB5561FE8B133002BFF33 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AD8CB5571FE8B133002BFF33 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		AD8CB55A1FE8D15B002BFF33 /* UITools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITools.swift; sourceTree = "<group>"; };
+		AD9CFF881FEF965200EF0A14 /* DateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTools.swift; sourceTree = "<group>"; };
+		ADB0A9381FECA79100C757A9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		ADB0A93A1FECAF8400C757A9 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		ADB0A93C1FECB0B100C757A9 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		ADB0A93D1FECB0B100C757A9 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		ADB0A9481FECC88200C757A9 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		ADB0A9491FECC88200C757A9 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		ADB0A94A1FECC88200C757A9 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		ADB0A94B1FECC88200C757A9 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		ADB0A9501FECCA9700C757A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ADB0A9521FECCAA700C757A9 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		ADB0A9541FECCACF00C757A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADB0A9561FECCAD700C757A9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ADB0AA3F1FED4BBD00C757A9 /* httpCmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = httpCmd.swift; sourceTree = "<group>"; };
+		ADD134051FE8F953002692E3 /* chargeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargeVC.swift; sourceTree = "<group>"; };
+		ADD134061FE8F953002692E3 /* chargeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chargeVC.xib; sourceTree = "<group>"; };
+		ADD1340B1FE9055C002692E3 /* scanscanBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanscanBg.png; sourceTree = "<group>"; };
+		ADD1340C1FE9055C002692E3 /* scanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@3x.png"; sourceTree = "<group>"; };
+		ADD1340D1FE9055C002692E3 /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
+		ADD1340F1FE9055C002692E3 /* ScanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningViewController.m; sourceTree = "<group>"; };
+		ADD134121FE9055C002692E3 /* ScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningViewController.h; sourceTree = "<group>"; };
+		ADD134181FE90F3C002692E3 /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
+		ADD1341C1FE9F495002692E3 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		ADD1341D1FE9F495002692E3 /* ExploreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreVC.xib; sourceTree = "<group>"; };
+		ADD134201FE9F4BF002692E3 /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		ADD215E31FEB571F00DE5833 /* PayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVC.swift; sourceTree = "<group>"; };
+		ADD215F31FEB7BA500DE5833 /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		ADD215F41FEB7BA500DE5833 /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		ADD215F51FEB7BA500DE5833 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		ADD215F61FEB7BA500DE5833 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		ADD215F71FEB7BA500DE5833 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		ADD215F81FEB7BA500DE5833 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		ADD215F91FEB7BA500DE5833 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		ADD215FB1FEB7BA500DE5833 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		ADD215FC1FEB7BA500DE5833 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		ADD216021FEB7C8700DE5833 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ADD216041FEB7C9000DE5833 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ADD216061FEB7CA100DE5833 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ADD216081FEB7CAE00DE5833 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ADD2160A1FEB7CB900DE5833 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADD2160C1FEB7CC700DE5833 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ADD2160E1FEB7CD100DE5833 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADD216101FEB7CDA00DE5833 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADD216121FEB7CE500DE5833 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADD216141FEB7CEE00DE5833 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ADD216161FEB7CF800DE5833 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8CB4FE1FE7B5B7002BFF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB0A94D1FECC88200C757A9 /* libssl.a in Frameworks */,
+				ADB0A9571FECCAD800C757A9 /* OpenGLES.framework in Frameworks */,
+				ADB0A9551FECCACF00C757A9 /* CoreLocation.framework in Frameworks */,
+				ADB0A9531FECCAA700C757A9 /* libstdc++.tbd in Frameworks */,
+				ADB0A9511FECCA9800C757A9 /* Security.framework in Frameworks */,
+				ADB0A9391FECA79100C757A9 /* libsqlite3.tbd in Frameworks */,
+				ADD216171FEB7CF800DE5833 /* CoreMotion.framework in Frameworks */,
+				ADB0A94F1FECC88200C757A9 /* BaiduMapAPI_Base.framework in Frameworks */,
+				ADB0A94E1FECC88200C757A9 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				ADB0A94C1FECC88200C757A9 /* libcrypto.a in Frameworks */,
+				ADD216151FEB7CEE00DE5833 /* CFNetwork.framework in Frameworks */,
+				ADD216131FEB7CE500DE5833 /* Foundation.framework in Frameworks */,
+				ADD216111FEB7CDA00DE5833 /* UIKit.framework in Frameworks */,
+				ADD2160F1FEB7CD100DE5833 /* CoreGraphics.framework in Frameworks */,
+				ADD2160D1FEB7CC700DE5833 /* CoreText.framework in Frameworks */,
+				ADD2160B1FEB7CB900DE5833 /* QuartzCore.framework in Frameworks */,
+				ADD216091FEB7CAE00DE5833 /* CoreTelephony.framework in Frameworks */,
+				ADD216071FEB7CA100DE5833 /* SystemConfiguration.framework in Frameworks */,
+				ADD216051FEB7C9000DE5833 /* libz.tbd in Frameworks */,
+				ADD216031FEB7C8800DE5833 /* libc++.tbd in Frameworks */,
+				ADD215FF1FEB7BA500DE5833 /* libWeChatSDK.a in Frameworks */,
+				AD8CB51E1FE7BEF4002BFF33 /* MapKit.framework in Frameworks */,
+				ADD216011FEB7BA500DE5833 /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D09F5B20214717009367DD /* deposits */ = {
+			isa = PBXGroup;
+			children = (
+				79D09F7E20218EF2009367DD /* BackDepositOK.swift */,
+				79D09F5C20214717009367DD /* BackDepositOK.xib */,
+				79D09F5D20214717009367DD /* backDeposits.swift */,
+				79D09F5E20214717009367DD /* backDeposits.xib */,
+				79D09F5F20214717009367DD /* DepositVC.swift */,
+				79D09F6020214717009367DD /* DepositVC.xib */,
+			);
+			path = deposits;
+			sourceTree = "<group>";
+		};
+		79D09F822021A559009367DD /* car */ = {
+			isa = PBXGroup;
+			children = (
+				79D09F852021ACA2009367DD /* CarAddInfoVC.swift */,
+				79D09F862021ACA2009367DD /* CarAddInfoVC.xib */,
+				79D09F902021B6BB009367DD /* CarInfoVC.swift */,
+				79D09F912021B6BB009367DD /* CarInfoVC.xib */,
+				79D09F942021BCAE009367DD /* CarCell.swift */,
+				79D09F952021BCAE009367DD /* CarCell.xib */,
+			);
+			path = car;
+			sourceTree = "<group>";
+		};
+		AD8CB4F81FE7B5B7002BFF33 = {
+			isa = PBXGroup;
+			children = (
+				AD8CB5031FE7B5B7002BFF33 /* YouYiDian */,
+				AD8CB5021FE7B5B7002BFF33 /* Products */,
+				AD8CB51C1FE7BEF4002BFF33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8CB5021FE7B5B7002BFF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CB5011FE7B5B7002BFF33 /* YouYiDian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8CB5031FE7B5B7002BFF33 /* YouYiDian */ = {
+			isa = PBXGroup;
+			children = (
+				ADD1341B1FE9F42F002692E3 /* mine */,
+				ADD1341A1FE9F3F6002692E3 /* explore */,
+				ADD134041FE8F893002692E3 /* charge */,
+				AD8CB5551FE8AEDB002BFF33 /* login */,
+				AD8CB54C1FE7EB8D002BFF33 /* Tools */,
+				AD8CB5301FE7CAE1002BFF33 /* third */,
+				AD8CB52B1FE7C834002BFF33 /* http */,
+				AD8CB5171FE7B842002BFF33 /* home */,
+				AD8CB5041FE7B5B7002BFF33 /* AppDelegate.swift */,
+				AD8CB5061FE7B5B7002BFF33 /* ViewController.swift */,
+				AD8CB5081FE7B5B7002BFF33 /* Main.storyboard */,
+				AD8CB50B1FE7B5B7002BFF33 /* Assets.xcassets */,
+				AD8CB50D1FE7B5B7002BFF33 /* LaunchScreen.storyboard */,
+				AD8CB5101FE7B5B7002BFF33 /* Info.plist */,
+				ADB0AA3F1FED4BBD00C757A9 /* httpCmd.swift */,
+			);
+			path = YouYiDian;
+			sourceTree = "<group>";
+		};
+		AD8CB5171FE7B842002BFF33 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CB5181FE7B867002BFF33 /* HomePageVC.swift */,
+				AD8CB51A1FE7BE04002BFF33 /* HomeVC.swift */,
+				AD8CB54A1FE7E704002BFF33 /* MapPoint.swift */,
+				AD8CB5501FE818A3002BFF33 /* PopDetail.swift */,
+				AD8CB5521FE818E4002BFF33 /* PopDetail.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		AD8CB51C1FE7BEF4002BFF33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0A9561FECCAD700C757A9 /* OpenGLES.framework */,
+				ADB0A9541FECCACF00C757A9 /* CoreLocation.framework */,
+				ADB0A9521FECCAA700C757A9 /* libstdc++.tbd */,
+				ADB0A9501FECCA9700C757A9 /* Security.framework */,
+				ADB0A9381FECA79100C757A9 /* libsqlite3.tbd */,
+				ADD216161FEB7CF800DE5833 /* CoreMotion.framework */,
+				ADD216141FEB7CEE00DE5833 /* CFNetwork.framework */,
+				ADD216121FEB7CE500DE5833 /* Foundation.framework */,
+				ADD216101FEB7CDA00DE5833 /* UIKit.framework */,
+				ADD2160E1FEB7CD100DE5833 /* CoreGraphics.framework */,
+				ADD2160C1FEB7CC700DE5833 /* CoreText.framework */,
+				ADD2160A1FEB7CB900DE5833 /* QuartzCore.framework */,
+				ADD216081FEB7CAE00DE5833 /* CoreTelephony.framework */,
+				ADD216061FEB7CA100DE5833 /* SystemConfiguration.framework */,
+				ADD216041FEB7C9000DE5833 /* libz.tbd */,
+				ADD216021FEB7C8700DE5833 /* libc++.tbd */,
+				AD8CB51D1FE7BEF4002BFF33 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD8CB52B1FE7C834002BFF33 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CB52E1FE7C91B002BFF33 /* GTools.swift */,
+				AD8CB52C1FE7C86B002BFF33 /* ZwqHttp.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		AD8CB5301FE7CAE1002BFF33 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0A9461FECC88200C757A9 /* BaiduMap_IOSSDK_v3 */,
+				ADD215FA1FEB7BA500DE5833 /* Alipay */,
+				ADD215F11FEB7BA500DE5833 /* WechatPay */,
+				ADD134091FE9055C002692E3 /* barcode */,
+				AD8CB5411FE7CD16002BFF33 /* MBProgessHUD */,
+				AD8CB53D1FE7CCF1002BFF33 /* YouYiDian-Bridging-Header.h */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		AD8CB5411FE7CD16002BFF33 /* MBProgessHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CB5421FE7CD16002BFF33 /* MBProgressHUD.m */,
+				AD8CB5431FE7CD16002BFF33 /* MBProgressHUD+HM.h */,
+				AD8CB5441FE7CD16002BFF33 /* MBProgressHUD.h */,
+				AD8CB5451FE7CD16002BFF33 /* MBProgressHUD+HM.m */,
+				AD8CB5461FE7CD16002BFF33 /* MBProgressHUD.bundle */,
+			);
+			path = MBProgessHUD;
+			sourceTree = "<group>";
+		};
+		AD8CB54C1FE7EB8D002BFF33 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CB55A1FE8D15B002BFF33 /* UITools.swift */,
+				AD9CFF881FEF965200EF0A14 /* DateTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AD8CB5551FE8AEDB002BFF33 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				AD8CB5561FE8B133002BFF33 /* LoginVC.swift */,
+				AD8CB5571FE8B133002BFF33 /* LoginVC.xib */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		ADB0A9461FECC88200C757A9 /* BaiduMap_IOSSDK_v3 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0A9471FECC88200C757A9 /* thirdlibs */,
+				ADB0A94A1FECC88200C757A9 /* BaiduMapAPI_Utils.framework */,
+				ADB0A94B1FECC88200C757A9 /* BaiduMapAPI_Base.framework */,
+			);
+			path = BaiduMap_IOSSDK_v3;
+			sourceTree = "<group>";
+		};
+		ADB0A9471FECC88200C757A9 /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0A9481FECC88200C757A9 /* libcrypto.a */,
+				ADB0A9491FECC88200C757A9 /* libssl.a */,
+			);
+			path = thirdlibs;
+			sourceTree = "<group>";
+		};
+		ADD134041FE8F893002692E3 /* charge */ = {
+			isa = PBXGroup;
+			children = (
+				ADD134051FE8F953002692E3 /* chargeVC.swift */,
+				ADD134061FE8F953002692E3 /* chargeVC.xib */,
+				ADD215E31FEB571F00DE5833 /* PayVC.swift */,
+				79D09F7C2021639B009367DD /* chargeOver.xib */,
+				79D09F80202196EC009367DD /* chargeOver.swift */,
+			);
+			path = charge;
+			sourceTree = "<group>";
+		};
+		ADD134091FE9055C002692E3 /* barcode */ = {
+			isa = PBXGroup;
+			children = (
+				ADD134181FE90F3C002692E3 /* BarcodeVC.swift */,
+				AD6A4CEA2018E3D100DF0EBE /* BarcodeVC.xib */,
+				ADD1340A1FE9055C002692E3 /* sourse */,
+				ADD1340E1FE9055C002692E3 /* lib */,
+			);
+			path = barcode;
+			sourceTree = "<group>";
+		};
+		ADD1340A1FE9055C002692E3 /* sourse */ = {
+			isa = PBXGroup;
+			children = (
+				ADD1340B1FE9055C002692E3 /* scanscanBg.png */,
+				ADD1340C1FE9055C002692E3 /* scanLine@3x.png */,
+				ADD1340D1FE9055C002692E3 /* scanLine@2x.png */,
+			);
+			path = sourse;
+			sourceTree = "<group>";
+		};
+		ADD1340E1FE9055C002692E3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ADD1340F1FE9055C002692E3 /* ScanningViewController.m */,
+				ADD134121FE9055C002692E3 /* ScanningViewController.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		ADD1341A1FE9F3F6002692E3 /* explore */ = {
+			isa = PBXGroup;
+			children = (
+				ADD1341C1FE9F495002692E3 /* ExploreVC.swift */,
+				ADD1341D1FE9F495002692E3 /* ExploreVC.xib */,
+			);
+			path = explore;
+			sourceTree = "<group>";
+		};
+		ADD1341B1FE9F42F002692E3 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				79D09F822021A559009367DD /* car */,
+				79D09F5B20214717009367DD /* deposits */,
+				ADD134201FE9F4BF002692E3 /* MineVC.swift */,
+				ADB0A93A1FECAF8400C757A9 /* HistoryVC.swift */,
+				ADB0A93C1FECB0B100C757A9 /* HistoryCell.swift */,
+				ADB0A93D1FECB0B100C757A9 /* HistoryCell.xib */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		ADD215F11FEB7BA500DE5833 /* WechatPay */ = {
+			isa = PBXGroup;
+			children = (
+				ADD215F21FEB7BA500DE5833 /* WXapi */,
+				ADD215F51FEB7BA500DE5833 /* WXApi.h */,
+				ADD215F61FEB7BA500DE5833 /* WXApiObject.h */,
+				ADD215F71FEB7BA500DE5833 /* README.txt */,
+				ADD215F81FEB7BA500DE5833 /* WechatAuthSDK.h */,
+				ADD215F91FEB7BA500DE5833 /* libWeChatSDK.a */,
+			);
+			path = WechatPay;
+			sourceTree = "<group>";
+		};
+		ADD215F21FEB7BA500DE5833 /* WXapi */ = {
+			isa = PBXGroup;
+			children = (
+				ADD215F31FEB7BA500DE5833 /* WXApiManager.h */,
+				ADD215F41FEB7BA500DE5833 /* WXApiManager.m */,
+			);
+			path = WXapi;
+			sourceTree = "<group>";
+		};
+		ADD215FA1FEB7BA500DE5833 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				ADD215FB1FEB7BA500DE5833 /* AlipaySDK.bundle */,
+				ADD215FC1FEB7BA500DE5833 /* AlipaySDK.framework */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8CB5001FE7B5B7002BFF33 /* YouYiDian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8CB5131FE7B5B7002BFF33 /* Build configuration list for PBXNativeTarget "YouYiDian" */;
+			buildPhases = (
+				AD8CB4FD1FE7B5B7002BFF33 /* Sources */,
+				AD8CB4FE1FE7B5B7002BFF33 /* Frameworks */,
+				AD8CB4FF1FE7B5B7002BFF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouYiDian;
+			productName = YouYiDian;
+			productReference = AD8CB5011FE7B5B7002BFF33 /* YouYiDian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8CB4F91FE7B5B7002BFF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zhangwenqiang;
+				TargetAttributes = {
+					AD8CB5001FE7B5B7002BFF33 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AD8CB4FC1FE7B5B7002BFF33 /* Build configuration list for PBXProject "YouYiDian" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8CB4F81FE7B5B7002BFF33;
+			productRefGroup = AD8CB5021FE7B5B7002BFF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8CB5001FE7B5B7002BFF33 /* YouYiDian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8CB4FF1FE7B5B7002BFF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8CB5591FE8B133002BFF33 /* LoginVC.xib in Resources */,
+				AD8CB50F1FE7B5B7002BFF33 /* LaunchScreen.storyboard in Resources */,
+				ADD216001FEB7BA500DE5833 /* AlipaySDK.bundle in Resources */,
+				AD8CB5491FE7CD16002BFF33 /* MBProgressHUD.bundle in Resources */,
+				79D09F972021BCAE009367DD /* CarCell.xib in Resources */,
+				ADD215FE1FEB7BA500DE5833 /* README.txt in Resources */,
+				79D09F882021ACA2009367DD /* CarAddInfoVC.xib in Resources */,
+				79D09F7D2021639B009367DD /* chargeOver.xib in Resources */,
+				79D09F6520214717009367DD /* DepositVC.xib in Resources */,
+				ADD134151FE9055C002692E3 /* scanLine@2x.png in Resources */,
+				79D09F932021B6BB009367DD /* CarInfoVC.xib in Resources */,
+				AD8CB50C1FE7B5B7002BFF33 /* Assets.xcassets in Resources */,
+				AD6A4CEB2018E3D100DF0EBE /* BarcodeVC.xib in Resources */,
+				ADD1341F1FE9F495002692E3 /* ExploreVC.xib in Resources */,
+				ADD134131FE9055C002692E3 /* scanscanBg.png in Resources */,
+				AD8CB50A1FE7B5B7002BFF33 /* Main.storyboard in Resources */,
+				ADB0A93F1FECB0B100C757A9 /* HistoryCell.xib in Resources */,
+				ADD134081FE8F953002692E3 /* chargeVC.xib in Resources */,
+				79D09F6320214717009367DD /* backDeposits.xib in Resources */,
+				AD8CB5531FE818E4002BFF33 /* PopDetail.xib in Resources */,
+				ADD134141FE9055C002692E3 /* scanLine@3x.png in Resources */,
+				79D09F6120214717009367DD /* BackDepositOK.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8CB4FD1FE7B5B7002BFF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB0AA401FED4BBD00C757A9 /* httpCmd.swift in Sources */,
+				AD8CB5071FE7B5B7002BFF33 /* ViewController.swift in Sources */,
+				79D09F962021BCAE009367DD /* CarCell.swift in Sources */,
+				AD8CB55B1FE8D15B002BFF33 /* UITools.swift in Sources */,
+				AD8CB5581FE8B133002BFF33 /* LoginVC.swift in Sources */,
+				AD8CB5511FE818A3002BFF33 /* PopDetail.swift in Sources */,
+				AD8CB52D1FE7C86B002BFF33 /* ZwqHttp.swift in Sources */,
+				79D09F6220214717009367DD /* backDeposits.swift in Sources */,
+				ADB0A93E1FECB0B100C757A9 /* HistoryCell.swift in Sources */,
+				ADD134161FE9055C002692E3 /* ScanningViewController.m in Sources */,
+				79D09F81202196EC009367DD /* chargeOver.swift in Sources */,
+				AD8CB5481FE7CD16002BFF33 /* MBProgressHUD+HM.m in Sources */,
+				79D09F922021B6BB009367DD /* CarInfoVC.swift in Sources */,
+				AD8CB51B1FE7BE04002BFF33 /* HomeVC.swift in Sources */,
+				ADB0A93B1FECAF8400C757A9 /* HistoryVC.swift in Sources */,
+				AD8CB52F1FE7C91B002BFF33 /* GTools.swift in Sources */,
+				AD8CB5051FE7B5B7002BFF33 /* AppDelegate.swift in Sources */,
+				ADD1341E1FE9F495002692E3 /* ExploreVC.swift in Sources */,
+				79D09F872021ACA2009367DD /* CarAddInfoVC.swift in Sources */,
+				ADD134071FE8F953002692E3 /* chargeVC.swift in Sources */,
+				ADD215E41FEB571F00DE5833 /* PayVC.swift in Sources */,
+				ADD134191FE90F3C002692E3 /* BarcodeVC.swift in Sources */,
+				AD8CB5191FE7B867002BFF33 /* HomePageVC.swift in Sources */,
+				AD8CB5471FE7CD16002BFF33 /* MBProgressHUD.m in Sources */,
+				ADD134211FE9F4BF002692E3 /* MineVC.swift in Sources */,
+				79D09F7F20218EF2009367DD /* BackDepositOK.swift in Sources */,
+				ADD215FD1FEB7BA500DE5833 /* WXApiManager.m in Sources */,
+				AD9CFF891FEF965200EF0A14 /* DateTools.swift in Sources */,
+				AD8CB54B1FE7E704002BFF33 /* MapPoint.swift in Sources */,
+				79D09F6420214717009367DD /* DepositVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD8CB5081FE7B5B7002BFF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8CB5091FE7B5B7002BFF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD8CB50D1FE7B5B7002BFF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8CB50E1FE7B5B7002BFF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD8CB5111FE7B5B7002BFF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD8CB5121FE7B5B7002BFF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD8CB5141FE7B5B7002BFF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSGN5R8WZ9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YouYiDian/third/Alipay",
+					"$(PROJECT_DIR)/YouYiDian/third/BaiduMap_IOSSDK_v3",
+				);
+				INFOPLIST_FILE = YouYiDian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YouYiDian/third/WechatPay",
+					"$(PROJECT_DIR)/YouYiDian/third/BaiduMap_IOSSDK_v3/thirdlibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = co.zhongqi.elec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YouYiDian/third/YouYiDian-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD8CB5151FE7B5B7002BFF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSGN5R8WZ9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YouYiDian/third/Alipay",
+					"$(PROJECT_DIR)/YouYiDian/third/BaiduMap_IOSSDK_v3",
+				);
+				INFOPLIST_FILE = YouYiDian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YouYiDian/third/WechatPay",
+					"$(PROJECT_DIR)/YouYiDian/third/BaiduMap_IOSSDK_v3/thirdlibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = co.zhongqi.elec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YouYiDian/third/YouYiDian-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8CB4FC1FE7B5B7002BFF33 /* Build configuration list for PBXProject "YouYiDian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8CB5111FE7B5B7002BFF33 /* Debug */,
+				AD8CB5121FE7B5B7002BFF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8CB5131FE7B5B7002BFF33 /* Build configuration list for PBXNativeTarget "YouYiDian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8CB5141FE7B5B7002BFF33 /* Debug */,
+				AD8CB5151FE7B5B7002BFF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD8CB4F91FE7B5B7002BFF33 /* Project object */;
+}

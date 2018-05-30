@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExploreVC" customModule="YouYiDian" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgExploreTop" translatesAutoresizingMaskIntoConstraints="NO" id="OLk-Iy-Xde">
+                    <rect key="frame" x="0.0" y="-20" width="375" height="182"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OLk-Iy-Xde" secondAttribute="height" multiplier="750:364" id="6Lv-1B-7Ab"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充电服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wU-5N-uVM">
+                    <rect key="frame" x="152.5" y="192" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第三方服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3v-Ve-ovL">
+                    <rect key="frame" x="144" y="333" width="87" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eih-Ua-ce1">
+                    <rect key="frame" x="0.0" y="239" width="94" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="yog-u5-fOp"/>
+                    </constraints>
+                    <state key="normal" image="exploreIcon1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJx-SK-rff">
+                    <rect key="frame" x="94" y="239" width="94" height="64"/>
+                    <state key="normal" image="exploreIcon2"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckw-Ir-bin">
+                    <rect key="frame" x="188" y="239" width="94" height="64"/>
+                    <state key="normal" image="exploreIcon3"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzf-ka-xCA">
+                    <rect key="frame" x="282" y="239" width="94" height="64"/>
+                    <state key="normal" image="exploreIcon4"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uru-Ba-1nT">
+                    <rect key="frame" x="187.5" y="383.5" width="94" height="64"/>
+                    <state key="normal" image="exploreIcon6"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fa9-M9-nRj">
+                    <rect key="frame" x="93.5" y="384" width="94" height="64"/>
+                    <state key="normal" image="exploreIcon5"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="c3v-Ve-ovL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0h9-Hy-SWB"/>
+                <constraint firstAttribute="trailing" secondItem="OLk-Iy-Xde" secondAttribute="trailing" id="1GP-cF-FiG"/>
+                <constraint firstItem="3wU-5N-uVM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7BV-9X-LpU"/>
+                <constraint firstItem="Yzf-ka-xCA" firstAttribute="centerY" secondItem="ckw-Ir-bin" secondAttribute="centerY" id="A5f-2i-v1e"/>
+                <constraint firstItem="fa9-M9-nRj" firstAttribute="top" secondItem="c3v-Ve-ovL" secondAttribute="bottom" constant="30" id="Ap0-qZ-9jo"/>
+                <constraint firstItem="OLk-Iy-Xde" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Est-CE-YE4"/>
+                <constraint firstItem="QJx-SK-rff" firstAttribute="centerY" secondItem="Eih-Ua-ce1" secondAttribute="centerY" id="G3C-fu-U3k"/>
+                <constraint firstAttribute="top" secondItem="OLk-Iy-Xde" secondAttribute="top" constant="20" id="Imm-Pj-2HX"/>
+                <constraint firstItem="QJx-SK-rff" firstAttribute="height" secondItem="Eih-Ua-ce1" secondAttribute="height" id="K70-ab-YuR"/>
+                <constraint firstItem="uru-Ba-1nT" firstAttribute="leading" secondItem="fa9-M9-nRj" secondAttribute="trailing" id="L5L-LH-xlz"/>
+                <constraint firstItem="Yzf-ka-xCA" firstAttribute="leading" secondItem="ckw-Ir-bin" secondAttribute="trailing" id="MjP-Qv-eCn"/>
+                <constraint firstItem="Yzf-ka-xCA" firstAttribute="width" secondItem="ckw-Ir-bin" secondAttribute="width" id="NG4-O5-hc6"/>
+                <constraint firstItem="ckw-Ir-bin" firstAttribute="width" secondItem="QJx-SK-rff" secondAttribute="width" id="NRQ-Bz-Y5Z"/>
+                <constraint firstItem="fa9-M9-nRj" firstAttribute="height" secondItem="QJx-SK-rff" secondAttribute="height" id="PhN-mZ-zO1"/>
+                <constraint firstItem="uru-Ba-1nT" firstAttribute="height" secondItem="fa9-M9-nRj" secondAttribute="height" id="Pv7-0f-DfO"/>
+                <constraint firstItem="Yzf-ka-xCA" firstAttribute="height" secondItem="ckw-Ir-bin" secondAttribute="height" id="RWT-jn-bvu"/>
+                <constraint firstItem="c3v-Ve-ovL" firstAttribute="top" secondItem="Eih-Ua-ce1" secondAttribute="bottom" constant="30" id="Seu-Ja-2yA"/>
+                <constraint firstItem="3wU-5N-uVM" firstAttribute="top" secondItem="OLk-Iy-Xde" secondAttribute="bottom" constant="30" id="VZ4-gv-mJk"/>
+                <constraint firstItem="ckw-Ir-bin" firstAttribute="height" secondItem="QJx-SK-rff" secondAttribute="height" id="WON-SQ-Rtg"/>
+                <constraint firstItem="fa9-M9-nRj" firstAttribute="centerX" secondItem="QJx-SK-rff" secondAttribute="centerX" id="Z9r-uB-NR5"/>
+                <constraint firstItem="fa9-M9-nRj" firstAttribute="width" secondItem="QJx-SK-rff" secondAttribute="width" id="bGc-yI-yL1"/>
+                <constraint firstItem="Eih-Ua-ce1" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="1:4" id="bxQ-eV-R9F"/>
+                <constraint firstItem="QJx-SK-rff" firstAttribute="width" secondItem="Eih-Ua-ce1" secondAttribute="width" id="cep-5L-T86"/>
+                <constraint firstItem="Eih-Ua-ce1" firstAttribute="top" secondItem="3wU-5N-uVM" secondAttribute="bottom" constant="26" id="d2t-rX-L2J"/>
+                <constraint firstItem="uru-Ba-1nT" firstAttribute="centerY" secondItem="fa9-M9-nRj" secondAttribute="centerY" id="eOE-rO-ChP"/>
+                <constraint firstItem="uru-Ba-1nT" firstAttribute="width" secondItem="fa9-M9-nRj" secondAttribute="width" id="etl-MR-45E"/>
+                <constraint firstItem="ckw-Ir-bin" firstAttribute="leading" secondItem="QJx-SK-rff" secondAttribute="trailing" id="fEC-vU-4wH"/>
+                <constraint firstItem="QJx-SK-rff" firstAttribute="leading" secondItem="Eih-Ua-ce1" secondAttribute="trailing" id="kTs-iv-6kE"/>
+                <constraint firstItem="ckw-Ir-bin" firstAttribute="centerY" secondItem="QJx-SK-rff" secondAttribute="centerY" id="mno-IL-0cA"/>
+                <constraint firstItem="Eih-Ua-ce1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="s5F-0m-G5P"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgExploreTop" width="250" height="121"/>
+        <image name="exploreIcon1" width="36" height="45"/>
+        <image name="exploreIcon2" width="37" height="45"/>
+        <image name="exploreIcon3" width="36" height="45"/>
+        <image name="exploreIcon4" width="36" height="45"/>
+        <image name="exploreIcon5" width="60" height="60"/>
+        <image name="exploreIcon6" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BarcodeVC" customModule="YouYiDian" customModuleProvider="target">
+            <connections>
+                <outlet property="m_pBgView" destination="H3p-XR-8Rx" id="gWR-u5-z4a"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3p-XR-8Rx" userLabel="bgview">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1qE-h9-0G7">
+                    <rect key="frame" x="77" y="223.5" width="220" height="220"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="220" id="729-7Z-eGR"/>
+                        <constraint firstAttribute="width" secondItem="1qE-h9-0G7" secondAttribute="height" multiplier="1:1" id="JtA-gx-UmP"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfY-mm-ZUZ">
+                    <rect key="frame" x="77" y="507" width="109" height="123"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="123" id="DHJ-Mu-CmN"/>
+                        <constraint firstAttribute="width" constant="109" id="aVJ-dj-bOV"/>
+                    </constraints>
+                    <state key="normal" image="scanHand"/>
+                    <connections>
+                        <action selector="clickWriteCode:" destination="-1" eventType="touchUpInside" id="gV7-Ok-57o"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cix-hm-lhO">
+                    <rect key="frame" x="212" y="507" width="85" height="123"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="123" id="DAX-gP-jWP"/>
+                        <constraint firstAttribute="width" constant="85" id="flB-tE-7LX"/>
+                    </constraints>
+                    <state key="normal" image="scanLight"/>
+                    <connections>
+                        <action selector="clickLight:" destination="-1" eventType="touchUpInside" id="M24-B7-nbw"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="对准充电桩上的二维码,即可自动扫描" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNG-51-xqx">
+                    <rect key="frame" x="62.5" y="189" width="249.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.74489891529999996" green="0.74900966879999997" blue="0.75305664539999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUf-dV-BAg">
+                    <rect key="frame" x="325" y="34" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="GYl-HW-ebd"/>
+                        <constraint firstAttribute="height" constant="20" id="jGs-tr-Lym"/>
+                    </constraints>
+                    <state key="normal" image="scanClose"/>
+                    <connections>
+                        <action selector="clickClose:" destination="-1" eventType="touchUpInside" id="hf1-QT-Tsy"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_login" translatesAutoresizingMaskIntoConstraints="NO" id="IE8-hW-Puc">
+                    <rect key="frame" x="16" y="19" width="200" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="eGC-5f-6Mn"/>
+                        <constraint firstAttribute="height" constant="50" id="ewV-HZ-7UA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="1qE-h9-0G7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Gzo-qb-uft"/>
+                <constraint firstAttribute="bottom" secondItem="dfY-mm-ZUZ" secondAttribute="bottom" constant="37" id="Jv9-d3-UG6"/>
+                <constraint firstItem="AUf-dV-BAg" firstAttribute="centerY" secondItem="IE8-hW-Puc" secondAttribute="centerY" id="LmC-55-0TZ"/>
+                <constraint firstAttribute="trailing" secondItem="AUf-dV-BAg" secondAttribute="trailing" constant="30" id="MGt-Mu-buj"/>
+                <constraint firstItem="IE8-hW-Puc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="NIE-6j-nwb"/>
+                <constraint firstItem="cix-hm-lhO" firstAttribute="trailing" secondItem="1qE-h9-0G7" secondAttribute="trailing" id="Njo-FV-UhS"/>
+                <constraint firstItem="dfY-mm-ZUZ" firstAttribute="leading" secondItem="1qE-h9-0G7" secondAttribute="leading" id="eBS-1j-crw"/>
+                <constraint firstItem="yNG-51-xqx" firstAttribute="centerX" secondItem="1qE-h9-0G7" secondAttribute="centerX" id="ghq-hh-DqP"/>
+                <constraint firstItem="cix-hm-lhO" firstAttribute="top" secondItem="dfY-mm-ZUZ" secondAttribute="top" id="lgF-9E-LCB"/>
+                <constraint firstItem="IE8-hW-Puc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="19" id="wny-bK-Xrj"/>
+                <constraint firstItem="1qE-h9-0G7" firstAttribute="top" secondItem="yNG-51-xqx" secondAttribute="bottom" constant="16.5" id="y4Z-Co-16X"/>
+                <constraint firstItem="1qE-h9-0G7" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="zii-XB-cmZ"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_login" width="133" height="31"/>
+        <image name="scanClose" width="42" height="45"/>
+        <image name="scanHand" width="72" height="82"/>
+        <image name="scanLight" width="56" height="81"/>
+    </resources>
+</document>
